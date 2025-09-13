@@ -39,10 +39,10 @@ async def start(client, message):
         await db.add_user(user.id)             
     txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
+        InlineKeyboardButton("😈 Developer 😈", callback_data='@Heisenbergsells')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/LazyDeveloper'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/LazyPrincessSupport')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/Heisenberg_Universe'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/HeisenbergBackupZone')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
@@ -53,8 +53,8 @@ async def start(client, message):
         ],[
         InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
         ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/LazyDeveloperr'),
-        InlineKeyboardButton("📝Admin-Channel", url='https://t.me/LazyDeveloper')
+        InlineKeyboardButton("📝Admin-TG", url='https://t.me/Heisenbergsells'),
+        InlineKeyboardButton("📝Admin-Channel", url='https://t.me/Heisenberg_Universe')
         ]
         ])
     if START_PIC:
